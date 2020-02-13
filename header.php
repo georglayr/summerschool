@@ -15,7 +15,7 @@
         <header class="">
 			<div class="logo-container">
 				<div class="h-logo">
-					<a href="<?php echo get_home_url(); ?>"><img class="img-logo" src="<?php echo get_template_directory_uri(); ?>/files/img/xmpl_logo.png"></a>
+					<a href="<?php echo get_home_url(); ?>"><img class="img-logo" src="<?php echo get_template_directory_uri(); ?>/files/img/logo_new.png"></a>
 				</div>
 
 				<div class="div-apply">

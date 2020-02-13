@@ -3,7 +3,7 @@
 // MY CODE
 
 class My_Walker_Nav_Menu extends Foundation_Walker_Nav_Menu {
-	function start_lvl(&$output, $depth) {
+	function start_lvl(&$output, $depth = 0, $args = array() ) {
 	  $indent = str_repeat("\t", $depth);
 	  $output .= "\n$indent<ul class=\"sub-menu dropdown vertical submenu\">\n";
 	}

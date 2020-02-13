@@ -75,12 +75,20 @@ body {
         margin:auto;
     }
 }
+.page-heading-single {
+    margin-top:30px;
+    transform: skew(-10deg, -10deg) translateY(-20px);
+}
 @media only screen and (max-width:500px) {
     .page-heading {
-        font-size:3rem;
+        font-size:2rem;
         transform: skew(-7deg, -7deg) translateX(10vw);
     }
+    .page-heading-single {
+        transform: skew(-7deg, -7deg);
+    }
 }
+
 
 /*
 ---
