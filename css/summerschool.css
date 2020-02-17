@@ -106,7 +106,7 @@ HEADER
     padding-bottom: 10px;
     background: #FFDA73;
 }
-#sticky-container {
+.sticky-container {
     z-index: 1000;
 }
 
@@ -316,12 +316,12 @@ FOOTER
 
 .wzb-logo,
 .bgss-logo {
-    height:120px;
+    height:100px;
     padding:20px 0px 20px 0px;;
     margin-left:30px;
 }
 .hu-logo {
-    height:130px;
+    height:110px;
     padding:15px 0px 15px 0px;;
     margin-left:30px;
 }
