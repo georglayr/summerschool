@@ -310,10 +310,15 @@ FOOTER
     border-left: 3px solid transparent;
 }
 
-.wzb-logo, 
+.wzb-logo,
+.bgss-logo {
+    height:120px;
+    padding:20px 0px 20px 0px;;
+    margin-left:30px;
+}
 .hu-logo {
-    height:150px;
-    padding:30px;
+    height:130px;
+    padding:15px 0px 15px 0px;;
     margin-left:30px;
 }
 
@@ -339,13 +344,15 @@ FOOTER
 @media only screen and (max-width:1000px) { 
     .footer-logos {
         margin-left:30px;
+        align-items: center;
     }
-    .wzb-logo, 
+    .wzb-logo,
+    .bgss-logo, 
     .hu-logo {
-        width:30vw;
-        height:auto;
-        padding:0px;
-        margin:0px;
+        width: 20vw;
+        height: auto;
+        padding: 10px;
+        margin: auto;
     }
 }
 
@@ -407,7 +414,7 @@ PAGE GRID
         max-height:calc(40vw + 50px);
     }
     #p-col-right::-webkit-scrollbar {
-        display: none;
+        /*display: none;*/
       }
     .default-img {
         width:40vw;
@@ -454,6 +461,10 @@ FRONT PAGE
     width:100%;
     object-fit: cover;
 }
+.img-contain > img {
+    object-fit:contain!important;
+}
+
 @media only screen and (max-width:768px) {
     .fp-img {
         width: 80vw;
@@ -539,7 +550,7 @@ BLOG
         -ms-overflow-style: none;
     }
     #b-col-right::-webkit-scrollbar {
-        display: none;
+        /*display: none;*/
       }
 }
 

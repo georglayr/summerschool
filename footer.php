@@ -17,7 +17,8 @@
     <div class="top-bar-left">
         <ul class="menu footer-logos">
             <li><a href="https://wzb.eu/en"><img class="wzb-logo" src="<?php echo get_template_directory_uri() ?>/files/img/wzb_white.png"></a></li>
-            <li><a href="https://www.bgss.hu-berlin.de/de/bgss"><img class="hu-logo" src="<?php echo get_template_directory_uri() ?>/files/img/bgss_logo_y.png"></a></li>
+            <li><a href="https://www.bgss.hu-berlin.de/de/bgss"><img class="bgss-logo" src="<?php echo get_template_directory_uri() ?>/files/img/bgss_logo_only.png"></a></li>
+            <li><a href="https://www.bgss.hu-berlin.de/de/bgss"><img class="hu-logo" src="<?php echo get_template_directory_uri() ?>/files/img/HU_logo.png"></a></li>
         </ul>
     </div>
     <div class="top-bar-right">
