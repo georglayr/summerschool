@@ -23,7 +23,7 @@ highlight complement yellow: #FFDA73 middle blue: #96ADFF
 
 * {
     font-family: 'Roboto Mono', monospace;
-    color: rgba(25,25,28,1.00);
+    /*color: rgba(25,25,28,1.00);*/
     font-size: 1rem;
 }
 
@@ -206,7 +206,7 @@ HEADER
 .menu-item a {
     color: black;
     text-transform: uppercase;
-    font-size:1.3rem;
+    font-size:1.2rem;
     font-weight: 400;
 }
 .menu-item a:visited,
@@ -279,7 +279,7 @@ HEADER
         border-left: none!important;
     }
     .is-dropdown-submenu-item > a {
-        font-size:1.3rem;
+        font-size:1.2rem;
         text-transform: uppercase;
     }
     .dropdown.menu > li.is-dropdown-submenu-parent > a::after,
@@ -540,6 +540,7 @@ BLOG
 @media only screen and (min-width: 1000px) {
     #b-cl-left {
         width:40vw;
+        max-width:40vw;
         height: 40vw;
     }
     
