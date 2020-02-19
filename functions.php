@@ -15,7 +15,7 @@ function summerschool_script_enqueue() {
     wp_enqueue_style('customstyle', get_stylesheet_directory_uri() . '/css/summerschool.css', array(), '1.0.0', 'all');
     
     //js
-    //wp_enqueue_script('jquery');
+    wp_enqueue_script('jquery');
     wp_enqueue_script('foundation-js', get_template_directory_uri() . '/js/app.js', array( 'jquery' ), '6.6.1', true);
     wp_enqueue_script('customjs', get_template_directory_uri() . '/js/summerschool.js', array(), '1.0.0', true);
     

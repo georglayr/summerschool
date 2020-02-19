@@ -19,14 +19,12 @@ Secondary:
 Highlight: rgba(46,92,255,1.0) 
 highlight:active: rgba(41,82,229,1.0)
 highlight complement yellow: #FFDA73 middle blue: #96ADFF
-
-
 */
 
 * {
     font-family: 'Roboto Mono', monospace;
     color: rgba(25,25,28,1.00);
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 a {
@@ -54,8 +52,8 @@ body {
 } 
 
 #body {
-    margin-left:20px;
-    margin-right:20px;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 .content-grid {
@@ -88,7 +86,6 @@ body {
         transform: skew(-7deg, -7deg);
     }
 }
-
 
 /*
 ---
@@ -156,7 +153,7 @@ HEADER
 }
 .apply-btn > a {
     font-weight:700;
-    font-size:1.5rem;
+    font-size:1.3rem;
     padding: 5px;
     color: rgba(46,92,255,1.0);
     /*text-shadow: 2px 2px lightgrey;*/
@@ -170,7 +167,7 @@ HEADER
     text-shadow: 1px 1px lightgrey;
 }
 
-/*Nav*/
+/* NAV */
 
 .accordion {
     background:none;
@@ -370,13 +367,12 @@ ANIMATIONS
 PAGE GRID
 */
 
-
 .col-left, .col-right {
     padding-top:50px;
 }
 
 .text-wrap {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top:40px;
     margin-bottom: 40px;
 }
@@ -384,7 +380,7 @@ PAGE GRID
     margin-bottom:2rem;
 }
 .text-wrap > p > * {
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .ft-img {
@@ -544,8 +540,7 @@ BLOG
 @media only screen and (min-width: 1000px) {
     #b-cl-left {
         width:40vw;
-        max-width:40vw;
-        max-height: 40vw;
+        height: 40vw;
     }
     
     #b-col-right {
