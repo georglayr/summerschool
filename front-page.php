@@ -5,7 +5,7 @@
     <div class="cell large-4 col-left" id="fp-col-left">
 
         <div class="landing-text">
-        <h1 class="page-heading" id="mobile-fp-h1">Berlin Summer School <span>in Social Sciences <?php echo get_the_date('Y'); ?></span></h1>
+        <h1 class="page-heading" id="mobile-fp-h1">Berlin Summer School <br><span>in Social Sciences <?php echo get_the_date('Y'); ?></span></h1>
             <?php if (have_posts()) : while(have_posts()) : the_post(); ?>
 
             <div class="text-wrap"><?php the_content(); ?></div>
