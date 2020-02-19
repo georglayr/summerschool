@@ -485,6 +485,7 @@ FRONT PAGE
 }
 .landing-text > .page-heading > span {
     font-size:3rem;
+    color:rgba(25,25,28,1.00);
 }
 
 @media only screen and (min-width:500px) {
@@ -576,7 +577,8 @@ SEARCH
 */
 
 #search-icon {
-    font-size:1.5rem;
+    font-size:1.3rem;
+    color: rgba(25,25,28,1.00);
     margin-left:20px;
     margin-right:20px;
 }
